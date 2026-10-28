@@ -1,0 +1,15 @@
+document.addEventListener("DOMContentLoaded", () => {
+  const toggleButton = document.querySelector(".menu-toggle");
+  const navMenu = document.querySelector(".nav-menu");
+  const yearEl = document.getElementById("year");
+
+  if (toggleButton && navMenu) {
+    toggleButton.addEventListener("click", () => {
+      navMenu.classList.toggle("active");
+    });
+  }
+
+  if (yearEl) {
+    yearEl.textContent = new Date().getFullYear();
+  }
+});

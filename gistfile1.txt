@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PiKIR | Praktisi Kewirausahaan Inovasi Riset</title>
+    <meta
+      name="description"
+      content="PiKIR adalah organisasi yang bergerak di bidang kewirausahaan, inovasi, dan riset untuk menciptakan solusi nyata bagi masyarakat."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="navbar container">
+        <div class="logo">
+          <span class="logo-mark">Pi</span>
+          <span>PiKIR</span>
+        </div>
+
+        <button class="menu-toggle" aria-label="Menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <div class="nav-menu">
+          <a href="#beranda">Beranda</a>
+          <a href="#tentang">Tentang</a>
+          <a href="#program">Program</a>
+          <a href="#kegiatan">Kegiatan</a>
+          <a href="#portfolio">Portofolio</a>
+          <a href="#tim">Pembina</a>
+          <a href="#kontak">Kontak</a>
+          <a href="#kontak" class="btn btn-primary nav-cta">Kolaborasi</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section id="beranda" class="hero">
+        <div class="container hero-content">
+          <div class="hero-copy">
+            <p class="eyebrow">Praktisi Kewirausahaan Inovasi Riset</p>
+            <h1>Menghubungkan riset, inovasi, dan kewirausahaan untuk perubahan nyata.</h1>
+            <p class="subtitle">
+              PiKIR hadir sebagai wadah bagi para praktisi, akademisi, dan pelaku
+              inovasi untuk mengembangkan ide, membangun solusi berbasis riset,
+              serta mendorong ekosistem kewirausahaan yang berdampak.
+            </p>
+
+            <div class="hero-actions">
+              <a href="#kontak" class="btn btn-primary">Bergabung</a>
+              <a href="#program" class="btn btn-secondary">Lihat Program</a>
+            </div>
+
+            <div class="stats">
+              <div>
+                <strong>14th</strong>
+                <span>tahun pengalaman</span>
+              </div>
+              <div>
+                <strong>40+</strong>
+                <span>program inovasi</span>
+              </div>
+              <div>
+                <strong>2000+</strong>
+                <span>pelaku terlibat</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-visual">
+            <div class="main-card">
+              <div class="badge">Research to Venture</div>
+              <h3>Inovasi yang lahir dari riset dan siap diimplementasikan.</h3>
+              <ul>
+                <li>Riset kebutuhan masyarakat</li>
+                <li>Pengembangan solusi inovatif</li>
+                <li>Inkubasi kewirausahaan</li>
+              </ul>
+            </div>
+
+            <div class="floating-card">
+              <div class="icon">📈</div>
+              <div>
+                <strong>85%</strong>
+                <p>inovasi siap dikembangkan</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="tentang" class="section">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Tentang PiKIR</p>
+            <h2>Memberdayakan ide menjadi solusi yang berdampak.</h2>
+          </div>
+
+          <div class="about-grid">
+            <div class="about-card">
+              <h3>Visi</h3>
+              <p>
+                Menjadi pelopor ekosistem inovasi riset dan kewirausahaan yang
+                mendorong kualitas hidup masyarakat melalui solusi nyata.
+              </p>
+            </div>
+            <div class="about-card">
+              <h3>Misi</h3>
+              <p>
+                Mengembangkan kemampuan riset, membangun inovasi yang aplikatif,
+                dan mendorong kemandirian usaha berbasis pengetahuan.
+              </p>
+            </div>
+            <div class="about-card">
+              <h3>Nilai</h3>
+              <p>
+                Kreativitas, kolaborasi, integritas, dan kebermanfaatan menjadi
+                fondasi utama dalam setiap langkah PiKIR.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="program" class="section alt">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Program</p>
+            <h2>Lintasan pengembangan inovasi dan kewirausahaan.</h2>
+          </div>
+
+          <div class="program-grid">
+            <article class="program-card">
+              <div class="icon-box">🔬</div>
+              <h3>Riset & Analisis</h3>
+              <p>
+                Mengidentifikasi kebutuhan nyata dan membangun dasar data untuk
+                solusi inovatif yang relevan.
+              </p>
+            </article>
+
+            <article class="program-card">
+              <div class="icon-box">💡</div>
+              <h3>Inovasi</h3>
+              <p>
+                Mengembangkan konsep, prototipe, dan model solusi baru yang
+                teruji dan aplikatif.
+              </p>
+            </article>
+
+            <article class="program-card">
+              <div class="icon-box">🚀</div>
+              <h3>Inkubasi Kewirausahaan</h3>
+              <p>
+                Menyediakan pendampingan, strategi bisnis, dan jaringan
+                pengembangan usaha berbasis inovasi.
+              </p>
+            </article>
+
+            <article class="program-card">
+              <div class="icon-box">🤝</div>
+              <h3>Kolaborasi</h3>
+              <p>
+                Menjalin kemitraan dengan berbagai pihak untuk memperluas
+                dampak dan akses terhadap inovasi.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="kegiatan" class="section">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Kegiatan</p>
+            <h2>Aktivitas yang mendorong ide berkembang menjadi solusi.</h2>
+          </div>
+
+          <div class="activity-grid">
+            <div class="activity-item">
+              <div class="activity-image image-one"></div>
+              <div class="activity-content">
+                <span class="tag">Informasi</span>
+                <h3>Info PiKIR Day</h3>
+                <p>
+                  Serangkaian sosialisasi, pengenalan program, dan informasi
+                  penting seputar inovasi, riset, serta peluang kewirausahaan
+                  bagi siswa dan komunitas.
+                </p>
+              </div>
+            </div>
+
+            <div class="activity-item">
+              <div class="activity-image image-two"></div>
+              <div class="activity-content">
+                <span class="tag">Festival</span>
+                <h3>FIKSA (Festival Kewirausahaan SMASA)</h3>
+                <p>
+                  Festival kewirausahaan yang menampilkan ide kreatif, bisnis
+                  inovatif, serta semangat berwirausaha siswa SMA/SMK dalam
+                  wadah yang inspiratif dan kompetitif.
+                </p>
+              </div>
+            </div>
+
+            <div class="activity-item">
+              <div class="activity-image image-three"></div>
+              <div class="activity-content">
+                <span class="tag">Eksperimen</span>
+                <h3>Roket Air</h3>
+                <p>
+                  Kegiatan eksperimen dan kreativitas siswa yang menggabungkan
+                  konsep sains, teknik, dan inovasi melalui pembuatan roket air
+                  yang menarik dan edukatif.
+                </p>
+              </div>
+            </div>
+
+            <div class="activity-item">
+              <div class="activity-image image-four"></div>
+              <div class="activity-content">
+                <span class="tag">Pengajaran</span>
+                <h3>PiJAR (PiKIR Mengajar)</h3>
+                <p>
+                  Program berbagi ilmu dan pendampingan belajar melalui kegiatan
+                  mengajar, pembinaan, serta transfer pengetahuan untuk membangun
+                  karakter dan kemampuan siswa.
+                </p>
+              </div>
+            </div>
+
+            <div class="activity-item">
+              <div class="activity-image image-five"></div>
+              <div class="activity-content">
+                <span class="tag">Kunjungan</span>
+                <h3>Studi Visit</h3>
+                <p>
+                  Kegiatan kunjungan belajar ke berbagai instansi, lembaga, atau
+                  komunitas untuk menambah wawasan, inspirasi, dan jaringan
+                  kolaborasi.
+                </p>
+              </div>
+            </div>
+
+            <div class="activity-item">
+              <div class="activity-image image-six"></div>
+              <div class="activity-content">
+                <span class="tag">Riset</span>
+                <h3>Penamaan Ilmiah</h3>
+                <p>
+                  Kegiatan yang menumbuhkan kreativitas siswa dalam mengembangkan
+                  ide-ide ilmiah, inovatif, dan aplikatif melalui proses penamaan
+                  produk, karya, atau inovasi dengan pendekatan yang terarah dan
+                  edukatif.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="portfolio" class="section alt">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Portofolio</p>
+            <h2>Proyek yang menunjukkan dampak nyata PiKIR.</h2>
+          </div>
+
+          <div class="portfolio-grid">
+            <div class="portfolio-card">
+              <div class="portfolio-badge">Inovasi Sosial</div>
+              <h3>Program solusi berbasis kebutuhan masyarakat</h3>
+              <p>
+                Menciptakan model inovasi yang menjawab permasalahan nyata di
+                komunitas dengan pendekatan riset yang terukur.
+              </p>
+            </div>
+
+            <div class="portfolio-card">
+              <div class="portfolio-badge">Startup</div>
+              <h3>Pendampingan ide bisnis berbasis riset</h3>
+              <p>
+                Membantu pelaku usaha menghadapi tantangan pasar dengan strategi
+                serta data yang lebih kuat dan terarah.
+              </p>
+            </div>
+
+            <div class="portfolio-card">
+              <div class="portfolio-badge">Teknologi</div>
+              <h3>Pengembangan produk inovatif berbasis data</h3>
+              <p>
+                Menghasilkan prototype dan pengembangan karya yang siap diuji,
+                dipelajari, dan diterapkan.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="tim" class="section">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Pembina Organisasi</p>
+            <h2>Para pembina yang membimbing dan mengarahkan organisasi.</h2>
+          </div>
+
+          <div class="team-grid">
+            <div class="team-card">
+              <div class="avatar avatar-one"></div>
+              <h3>A. Chizam Baihaqy M.Pd</h3>
+              <p>Pembina</p>
+            </div>
+
+            <div class="team-card">
+              <div class="avatar avatar-two"></div>
+              <h3>Ainun Tazkia S.Pd</h3>
+              <p>Pembina</p>
+            </div>
+
+            <div class="team-card">
+              <div class="avatar avatar-three"></div>
+              <h3>Rizki Yudha Sentika M.Pd</h3>
+              <p>Pembina</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="cta">
+        <div class="container cta-box">
+          <div>
+            <p class="eyebrow">Bersama kita membangun ekosistem inovasi yang memberi manfaat.</p>
+            <h2>Jadikan ide Anda bermakna dan siap berdaya.</h2>
+          </div>
+          <a href="#kontak" class="btn btn-light">Hubungi Kami</a>
+        </div>
+      </section>
+    </main>
+
+    <footer id="kontak" class="footer">
+      <div class="container footer-grid">
+        <div>
+          <div class="logo footer-logo">
+            <span class="logo-mark">Pi</span>
+            <span>PiKIR</span>
+          </div>
+          <p>
+            PiKIR adalah wadah inovasi yang menghubungkan riset, teknologi,
+            dan kewirausahaan untuk menghasilkan solusi yang berdampak.
+          </p>
+        </div>
+
+        <div>
+          <h4>Kontak</h4>
+          <ul>
+            <li>Jl. Inovasi No. 25, Bandung</li>
+            <li>hello@pikir.or.id</li>
+            <li>+62 812-3456-7890</li>
+          </ul>
+        </div>
+
+        <div>
+          <h4>Menu</h4>
+          <ul>
+            <li><a href="#beranda">Beranda</a></li>
+            <li><a href="#tentang">Tentang</a></li>
+            <li><a href="#program">Program</a></li>
+            <li><a href="#kontak">Kontak</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="copyright">
+        <div class="container">
+          <p>© <span id="year"></span> PiKIR. Semua hak dilindungi.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
